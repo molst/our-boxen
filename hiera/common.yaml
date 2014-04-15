@@ -1,0 +1,7 @@
+---
+# This is an example of the kinds of things that you can configure via hiera.
+# If you've left the defaults in `/hiera.yml`, you might want to copy this file
+# to `hiera/common.yaml`, or feel free to start with a blank slate!
+
+# Ensure homebrew is installed in usr/local, see https://github.com/boxen/puppet-boxen/issues/20
+homebrew::installdir: "/usr/local"
