@@ -4,4 +4,4 @@
 # to `hiera/common.yaml`, or feel free to start with a blank slate!
 
 # Ensure homebrew is installed in usr/local, see https://github.com/boxen/puppet-boxen/issues/20
-homebrew::installdir: "/usr/local"
+# homebrew::installdir: "/usr/local"
