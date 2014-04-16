@@ -93,7 +93,7 @@ node default {
   # include virtualbox
   # include vagrant
   # include btsync
-  # include hip chat
+  include hipchat
   # include onepassword
   # include python
 }
