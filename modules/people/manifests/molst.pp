@@ -5,4 +5,4 @@ class people::molst {
   # include iterm2
   # include fish
   # include gimp
-  include emacs  $home     = "/Users/${::boxen_user}"  $my       = "${home}/my”}
+  include emacs  $home     = "/Users/${::boxen_user}"  $my       = "${home}/my"}
