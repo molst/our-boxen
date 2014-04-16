@@ -88,12 +88,12 @@ node default {
     target => $boxen::config::repodir
   }
 
-  # include chrome
+  include chrome
   # include firefox
   # include virtualbox
   # include vagrant
   # include btsync
-  include hipchat
+  # include hipchat
   # include onepassword
   # include python
 }
