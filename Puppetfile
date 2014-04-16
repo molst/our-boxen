@@ -59,3 +59,14 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "chrome",      "1.1.2"github "firefox",     "1.1.8"github "virtualbox",  "1.0.11"github "vagrant",     "3.0.7"github "btsync",      "1.0.0"github "hipchat",     "2.5.2"github "onepassword", "1.1.0"github "python",      "1.1.1"
+
+# Added by people - only included in personal manifests
+
+github "googledrive", "1.0.2"
+github "dropbox",     "1.2.0"
+github "iterm2",      "1.0.4"
+github "fish",        "1.0.0"
+github "gimp",        "1.0.0"
+github "emacs",       "1.1.0"
