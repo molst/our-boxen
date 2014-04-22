@@ -26,6 +26,10 @@ def dev(name, *args)
   mod name, :path => "#{ENV['HOME']}/src/boxen/puppet-#{name}"
 end
 
+def devmolst(name, *args)
+  mod name, :path => "#{ENV['HOME']}/dev/int/puppet-#{name}"
+end
+
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
@@ -43,7 +47,8 @@ github "foreman",     "1.2.0"
 github "gcc",         "2.0.100"
 github "git",         "2.3.0"
 github "go",          "1.1.0"
-github "homebrew",    "1.6.2"
+# github "homebrew",    "1.6.2"
+devmolst "homebrew"
 github "hub",         "1.3.0"
 github "inifile",     "1.0.3", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.4.3"
