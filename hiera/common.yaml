@@ -5,3 +5,6 @@
 
 # Ensure homebrew is installed in usr/local, see https://github.com/boxen/puppet-boxen/issues/20
 homebrew::installdir: "/usr/local"
+homebrew::libdir: "/usr/local/lib"
+homebrew::cmddir: "/usr/local/Library/Homebrew/cmd"
+homebrew::brewsdir: "/usr/local/Library/Taps/boxen-brews"
